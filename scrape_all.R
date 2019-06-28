@@ -11,9 +11,9 @@ site <- "https://www.industriaavicola.net/member-login/"
 remDr$navigate(site) 
 
 webElem <- remDr$findElement(using = 'name', value = "log")
-webElem$sendKeysToElement(list("luimucar"))
+webElem$sendKeysToElement(list("XXXXXXXXXXXXXXX"))
 webElem <- remDr$findElement(using = 'name', value = "pwd")
-webElem$sendKeysToElement(list("Cacatua123#", key = "enter"))
+webElem$sendKeysToElement(list("XXXXXXXXXXXXX", key = "enter"))
 
 message("Wait 5 seconds")
 Sys.sleep(10)
