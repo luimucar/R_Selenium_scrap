@@ -1,0 +1,16 @@
+---
+title: "R Notebook"
+
+---
+
+
+
+```{r}
+data = read.csv("eggs.csv", fileEncoding = "utf-8")
+data
+```
+```{r}
+dim(data)
+length(unique(data$Empresa))
+```
+
